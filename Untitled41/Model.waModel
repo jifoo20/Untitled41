@@ -8,103 +8,109 @@
 
 		<DataClass1 ____objectunic="true" panelColor="#7F7F7F">
 
-			<panel ____objectunic="true" isOpen="true">
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 				<position ____objectunic="true" X="25" Y="20"/>
-
-			</panel>
-
-		</DataClass1>
+</panel>
+</DataClass1>
 
 		<DataClass2 ____objectunic="true" panelColor="#B7DDE8">
 
 			<panel ____objectunic="true" isOpen="true">
 
 				<position ____objectunic="true" X="245" Y="20"/>
-
-			</panel>
-
-		</DataClass2>
+</panel>
+</DataClass2>
 
 		<DataClass3 ____objectunic="true" panelColor="#70CCC2">
 
 			<panel ____objectunic="true" isOpen="true">
 
 				<position ____objectunic="true" X="465" Y="20"/>
-
-			</panel>
-
-		</DataClass3>
+</panel>
+</DataClass3>
 
 		<DataClass4 ____objectunic="true" panelColor="#B7DDE8">
 
 			<panel ____objectunic="true" isOpen="true">
 
 				<position ____objectunic="true" X="685" Y="20"/>
-
-			</panel>
-
-		</DataClass4>
+</panel>
+</DataClass4>
 
 		<DataClass5 ____objectunic="true" panelColor="#eee">
 
 			<panel ____objectunic="true" isOpen="true">
 
 				<position ____objectunic="true" X="25" Y="120"/>
-
-			</panel>
-
-		</DataClass5>
+</panel>
+</DataClass5>
 
 		<DataClass6 ____objectunic="true" panelColor="#C4BD97">
 
 			<panel ____objectunic="true" isOpen="true">
 
 				<position ____objectunic="true" X="245" Y="120"/>
+</panel>
+</DataClass6>
+
+		<DataClass7 ____objectunic="true" panelColor="#7F7F7F">
+
+			<panel ____objectunic="true" isOpen="true">
+
+				<position ____objectunic="true" X="475" Y="120"/>
 
 			</panel>
 
-		</DataClass6>
-
-	</classes>
+		</DataClass7>
+</classes>
 
 	<model ____objectunic="true"/>
-
 </extraProperties>
 
-<dataClasses collectionName="DataClass1Collection" className="DataClass1" uuid="E128B2753B79574A8F873FFF1C01AE95">
+<dataClasses name="DataClass1" className="DataClass1" collectionName="DataClass1Collection" scope="public" uuid="E128B2753B79574A8F873FFF1C01AE95">
 
-	<attributes name="ID" kind="storage" type="long" uuid="8DD6CFA180941F45934D49A34A9A51A1" autosequence="true" unique="true" primKey="true"/>
+	<attributes name="ID" kind="storage" scope="public" uuid="8DD6CFA180941F45934D49A34A9A51A1" unique="true" autosequence="true" type="long" primKey="true"/>
 
-</dataClasses>
+	<attributes name="attribute1" kind="storage" scope="public" uuid="6B76527D7AEA294F9F938074C7607649" type="string"/>
 
-<dataClasses collectionName="DataClass2Collection" className="DataClass2" uuid="B6F905826CE8D543874FB14412A8E0DB">
-
-	<attributes name="ID" kind="storage" type="long" uuid="155EC7B4E6D2494B999BD0C3676EF1F4" autosequence="true" unique="true" primKey="true"/>
+	<events kind="onInit" from="guidedModel.DataClass1.events.onInit"/>
 
 </dataClasses>
 
-<dataClasses collectionName="DataClass3Collection" className="DataClass3" uuid="4EEBC8C564887D4D8A8B24B02E77CB73">
+<dataClasses name="DataClass2" className="DataClass2" collectionName="DataClass2Collection" scope="public" uuid="B6F905826CE8D543874FB14412A8E0DB">
 
-	<attributes name="ID" kind="storage" type="long" uuid="ECEA8395B6A2D646A9AE0D56E682C4AE" autosequence="true" unique="true" primKey="true"/>
-
-</dataClasses>
-
-<dataClasses collectionName="DataClass4Collection" className="DataClass4" uuid="9A5B5717CAE6A348B706E18312628167">
-
-	<attributes name="ID" kind="storage" type="long" uuid="7472C2D4D1C1B74B8DDC334EA8426B22" autosequence="true" unique="true" primKey="true"/>
+	<attributes name="ID" kind="storage" scope="public" uuid="155EC7B4E6D2494B999BD0C3676EF1F4" unique="true" autosequence="true" type="long" primKey="true"/>
 
 </dataClasses>
 
-<dataClasses collectionName="DataClass5Collection" className="DataClass5" uuid="66EB74F546275242A6579817B0956931">
+<dataClasses name="DataClass3" className="DataClass3" collectionName="DataClass3Collection" scope="public" uuid="4EEBC8C564887D4D8A8B24B02E77CB73">
 
-	<attributes name="ID" kind="storage" type="long" uuid="0852422108F5D0429B7E98EE6C965B28" autosequence="true" unique="true" primKey="true"/>
+	<attributes name="ID" kind="storage" scope="public" uuid="ECEA8395B6A2D646A9AE0D56E682C4AE" unique="true" autosequence="true" type="long" primKey="true"/>
 
 </dataClasses>
 
-<dataClasses collectionName="DataClass6Collection" className="DataClass6" uuid="7C97399C715EB54284B596C3F64912F0">
+<dataClasses name="DataClass4" className="DataClass4" collectionName="DataClass4Collection" scope="public" uuid="9A5B5717CAE6A348B706E18312628167">
 
-	<attributes name="ID" kind="storage" type="long" uuid="637BB7C46D3353419F6C5C9FCD0A3C54" autosequence="true" unique="true" primKey="true"/>
+	<attributes name="ID" kind="storage" scope="public" uuid="7472C2D4D1C1B74B8DDC334EA8426B22" unique="true" autosequence="true" type="long" primKey="true"/>
+
+</dataClasses>
+
+<dataClasses name="DataClass5" className="DataClass5" collectionName="DataClass5Collection" scope="public" uuid="66EB74F546275242A6579817B0956931">
+
+	<attributes name="ID" kind="storage" scope="public" uuid="0852422108F5D0429B7E98EE6C965B28" unique="true" autosequence="true" type="long" primKey="true"/>
+
+</dataClasses>
+
+<dataClasses name="DataClass6" className="DataClass6" collectionName="DataClass6Collection" scope="public" uuid="7C97399C715EB54284B596C3F64912F0">
+
+	<attributes name="ID" kind="storage" scope="public" uuid="637BB7C46D3353419F6C5C9FCD0A3C54" unique="true" autosequence="true" type="long" primKey="true"/>
+
+</dataClasses>
+
+<dataClasses collectionName="DataClass7Collection" className="DataClass7" uuid="58519FFBDAE63B44B1EF342A80695F46">
+
+	<attributes name="ID" kind="storage" type="long" uuid="F8C1B95CAA61E54ABA2518C91224E331" autosequence="true" unique="true" primKey="true"/>
 
 </dataClasses>
 </EntityModelCatalog>
